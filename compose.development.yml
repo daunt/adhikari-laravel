@@ -1,0 +1,17 @@
+# compose.yaml
+services:
+  adhikari:
+    image: dauntearl/php-cli:latest
+    environment:
+      - APP_ENV=development
+    ports:
+      - "8002:8000"
+    volumes:
+      - .:/var/www
+      # - ./docker/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
+      # - ./docker/php.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      - daunt-network
+networks:
+  daunt-network:
+    external: true
