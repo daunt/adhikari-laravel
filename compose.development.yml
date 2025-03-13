@@ -8,8 +8,8 @@ services:
       - "8002:8000"
     volumes:
       - .:/var/www
-      # - ./docker/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
-      # - ./docker/php.ini:/usr/local/etc/php/conf.d/local.ini
+      - ./docker/supervisord.conf:/etc/supervisor/conf.d/supervisord.conf
+      - ./docker/php.ini:/usr/local/etc/php/conf.d/local.ini
     networks:
       - daunt-network
 networks:
