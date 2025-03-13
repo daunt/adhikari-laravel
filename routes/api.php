@@ -21,14 +21,15 @@ Route::group(['prefix' => 'auth',], function () {
 });
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
-
     Route::apiResource('users', UserController::class);
 
     Route::group(['prefix' => 'customers'], function () {
         Route::post('process-data', [CustomerController::class, 'processData']);
-        Route::get('search', [CustomerController::class, 'search']);
-        Route::get('search/name', [CustomerController::class, 'searchByName']);
-        Route::get('search/nim', [CustomerController::class, 'searchByNim']);
-        Route::get('search/ymd', [CustomerController::class, 'searchByYmd']);
+        Route::group(['prefix' => 'search'], function() {
+            Route::get('nama/{q}', [CustomerController::class, 'searchByNama']);
+            Route::get('nim/{q}', [CustomerController::class, 'searchByNim']);
+            Route::get('ymd/{q}', [CustomerController::class, 'searchByYmd']);
+            Route::get('', [CustomerController::class, 'search']);
+        });
     });
 });
