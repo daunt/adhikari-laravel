@@ -1,0 +1,1292 @@
+{
+	"info": {
+		"_postman_id": "484e11b3-7b52-46dd-bf45-d64138827f63",
+		"name": "adhikari",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17143501"
+	},
+	"item": [
+		{
+			"name": "customer",
+			"item": [
+				{
+					"name": "ProcessData",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/customers/process-data",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"customers",
+								"process-data"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/customers/process-data",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"customers",
+										"process-data"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 12 Mar 2025 23:30:39 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Data berhasil disimpan\",\n    \"data\": [\n        {\n            \"nim\": \"0178453629\",\n            \"ymd\": \"20220803\",\n            \"nama\": \"Abigail Williams\"\n        },\n        {\n            \"nim\": \"0197485623\",\n            \"ymd\": \"20231122\",\n            \"nama\": \"Adams Ava\"\n        },\n        {\n            \"nim\": \"0198267543\",\n            \"ymd\": \"20220407\",\n            \"nama\": \"Adams Emma\"\n        },\n        {\n            \"nim\": \"0286157349\",\n            \"ymd\": \"20230918\",\n            \"nama\": \"Adams Harper\"\n        },\n        {\n            \"nim\": \"0316892475\",\n            \"ymd\": \"20221230\",\n            \"nama\": \"Adams Jackson\"\n        },\n        {\n            \"nim\": \"0382174956\",\n            \"ymd\": \"20230611\",\n            \"nama\": \"Adams Liam\"\n        },\n        {\n            \"nim\": \"0382541967\",\n            \"ymd\": \"20220225\",\n            \"nama\": \"Adams Lily\"\n        },\n        {\n            \"nim\": \"0457896312\",\n            \"ymd\": \"20230502\",\n            \"nama\": \"Adams Mia\"\n        },\n        {\n            \"nim\": \"0471953286\",\n            \"ymd\": \"20221014\",\n            \"nama\": \"Adams Noah\"\n        },\n        {\n            \"nim\": \"0568371942\",\n            \"ymd\": \"20230327\",\n            \"nama\": \"Adams Olivia\"\n        },\n        {\n            \"nim\": \"0847513692\",\n            \"ymd\": \"20220709\",\n            \"nama\": \"Adams Sophia\"\n        },\n        {\n            \"nim\": \"0973812546\",\n            \"ymd\": \"20230213\",\n            \"nama\": \"Addison Morris\"\n        },\n        {\n            \"nim\": \"1065973248\",\n            \"ymd\": \"20220526\",\n            \"nama\": \"Aiden Baker\"\n        },\n        {\n            \"nim\": \"1073498256\",\n            \"ymd\": \"20231007\",\n            \"nama\": \"Aiden Bell\"\n        },\n        {\n            \"nim\": \"1084279563\",\n            \"ymd\": \"20220119\",\n            \"nama\": \"Aiden Brooks\"\n        },\n        {\n            \"nim\": \"1098342576\",\n            \"ymd\": \"20230801\",\n            \"nama\": \"Aiden Cooper\"\n        },\n        {\n            \"nim\": \"1098745632\",\n            \"ymd\": \"20221124\",\n            \"nama\": \"Aiden Foster\"\n        },\n        {\n            \"nim\": \"1206485739\",\n            \"ymd\": \"20230405\",\n            \"nama\": \"Aiden Hayes\"\n        },\n        {\n            \"nim\": \"1209563748\",\n            \"ymd\": \"20220917\",\n            \"nama\": \"Aiden Murphy\"\n        },\n        {\n            \"nim\": \"1209847653\",\n            \"ymd\": \"20231229\",\n            \"nama\": \"Aiden Powell\"\n        },\n        {\n            \"nim\": \"1234567890\",\n            \"ymd\": \"20220610\",\n            \"nama\": \"Aiden Taylor\"\n        },\n        {\n            \"nim\": \"1239708564\",\n            \"ymd\": \"20230123\",\n            \"nama\": \"Aiden Turner\"\n        },\n        {\n            \"nim\": \"1243567890\",\n            \"ymd\": \"20220806\",\n            \"nama\": \"Alexander Cook\"\n        },\n        {\n            \"nim\": \"1245867039\",\n            \"ymd\": \"20231125\",\n            \"nama\": \"Amelia Murphy\"\n        },\n        {\n            \"nim\": \"1298347650\",\n            \"ymd\": \"20220410\",\n            \"nama\": \"Aria Sanders\"\n        },\n        {\n            \"nim\": \"1298745603\",\n            \"ymd\": \"20230921\",\n            \"nama\": \"Ava Adams\"\n        },\n        {\n            \"nim\": \"1309452786\",\n            \"ymd\": \"20221203\",\n            \"nama\": \"Ava Bell\"\n        },\n        {\n            \"nim\": \"1345678902\",\n            \"ymd\": \"20230614\",\n            \"nama\": \"Ava Brooks\"\n        },\n        {\n            \"nim\": \"1347695820\",\n            \"ymd\": \"20220228\",\n            \"nama\": \"Ava Campbell\"\n        },\n        {\n            \"nim\": \"1349752680\",\n            \"ymd\": \"20230505\",\n            \"nama\": \"Ava Foster\"\n        },\n        {\n            \"nim\": \"1385076429\",\n            \"ymd\": \"20221017\",\n            \"nama\": \"Ava Hayes\"\n        },\n        {\n            \"nim\": \"1492876053\",\n            \"ymd\": \"20230401\",\n            \"nama\": \"Ava Turner\"\n        },\n        {\n            \"nim\": \"1579864203\",\n            \"ymd\": \"20220922\",\n            \"nama\": \"Ava Wright\"\n        },\n        {\n            \"nim\": \"1583942076\",\n            \"ymd\": \"20231202\",\n            \"nama\": \"Baker Aiden\"\n        },\n        {\n            \"nim\": \"1586423097\",\n            \"ymd\": \"20220617\",\n            \"nama\": \"Baker Emma\"\n        },\n        {\n            \"nim\": \"1753094682\",\n            \"ymd\": \"20230130\",\n            \"nama\": \"Barnes Lucas\"\n        },\n        {\n            \"nim\": \"1769854023\",\n            \"ymd\": \"20220809\",\n            \"nama\": \"Barnes Sophia\"\n        },\n        {\n            \"nim\": \"1789054326\",\n            \"ymd\": \"20231128\",\n            \"nama\": \"Barnes Wyatt\"\n        },\n        {\n            \"nim\": \"1803924567\",\n            \"ymd\": \"20220502\",\n            \"nama\": \"Bell Aiden\"\n        },\n        {\n            \"nim\": \"1835096742\",\n            \"ymd\": \"20231011\",\n            \"nama\": \"Bell Ava\"\n        },\n        {\n            \"nim\": \"1836947502\",\n            \"ymd\": \"20220304\",\n            \"nama\": \"Bell Chloe\"\n        },\n        {\n            \"nim\": \"1837692450\",\n            \"ymd\": \"20230716\",\n            \"nama\": \"Bell Harper\"\n        },\n        {\n            \"nim\": \"1845603729\",\n            \"ymd\": \"20221127\",\n            \"nama\": \"Bell Jackson\"\n        },\n        {\n            \"nim\": \"1845726309\",\n            \"ymd\": \"20230410\",\n            \"nama\": \"Bell Liam\"\n        },\n        {\n            \"nim\": \"1857306942\",\n            \"ymd\": \"20220925\",\n            \"nama\": \"Bell Lily\"\n        },\n        {\n            \"nim\": \"1894725063\",\n            \"ymd\": \"20231205\",\n            \"nama\": \"Bell Noah\"\n        },\n        {\n            \"nim\": \"1896753042\",\n            \"ymd\": \"20220620\",\n            \"nama\": \"Bell Oliver\"\n        },\n        {\n            \"nim\": \"1948276530\",\n            \"ymd\": \"20230203\",\n            \"nama\": \"Bell Olivia\"\n        },\n        {\n            \"nim\": \"1953862407\",\n            \"ymd\": \"20220713\",\n            \"nama\": \"Bell Sophia\"\n        },\n        {\n            \"nim\": \"1984736052\",\n            \"ymd\": \"20231024\",\n            \"nama\": \"Benjamin Parker\"\n        },\n        {\n            \"nim\": \"1987654320\",\n            \"ymd\": \"20220507\",\n            \"nama\": \"Brooks Aiden\"\n        },\n        {\n            \"nim\": \"2039485716\",\n            \"ymd\": \"20230110\",\n            \"nama\": \"Brooks Ava\"\n        },\n        {\n            \"nim\": \"2047956831\",\n            \"ymd\": \"20220822\",\n            \"nama\": \"Brooks Chloe\"\n        },\n        {\n            \"nim\": \"2049576183\",\n            \"ymd\": \"20231130\",\n            \"nama\": \"Brooks Emma\"\n        },\n        {\n            \"nim\": \"2053748619\",\n            \"ymd\": \"20220415\",\n            \"nama\": \"Brooks Jackson\"\n        },\n        {\n            \"nim\": \"2056781439\",\n            \"ymd\": \"20230928\",\n            \"nama\": \"Brooks Lily\"\n        },\n        {\n            \"nim\": \"2056783491\",\n            \"ymd\": \"20221210\",\n            \"nama\": \"Brooks Noah\"\n        },\n        {\n            \"nim\": \"2083651947\",\n            \"ymd\": \"20230621\",\n            \"nama\": \"Brooks Oliver\"\n        },\n        {\n            \"nim\": \"2096431587\",\n            \"ymd\": \"20220214\",\n            \"nama\": \"Brooks Sophia\"\n        },\n        {\n            \"nim\": \"2103847659\",\n            \"ymd\": \"20230509\",\n            \"nama\": \"Bryant Ethan\"\n        },\n        {\n            \"nim\": \"2108943657\",\n            \"ymd\": \"20221022\",\n            \"nama\": \"Bryant Jackson\"\n        },\n        {\n            \"nim\": \"2154038697\",\n            \"ymd\": \"20230305\",\n            \"nama\": \"Bryant Liam\"\n        },\n        {\n            \"nim\": \"2157349608\",\n            \"ymd\": \"20220718\",\n            \"nama\": \"Campbell Ava\"\n        },\n        {\n            \"nim\": \"2170983456\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Campbell Harper\"\n        },\n        {\n            \"nim\": \"2178605439\",\n            \"ymd\": \"20220624\",\n            \"nama\": \"Campbell Liam\"\n        },\n        {\n            \"nim\": \"2187349605\",\n            \"ymd\": \"20230207\",\n            \"nama\": \"Campbell Mia\"\n        },\n        {\n            \"nim\": \"2190836745\",\n            \"ymd\": \"20220901\",\n            \"nama\": \"Campbell Sophia\"\n        },\n        {\n            \"nim\": \"2318945670\",\n            \"ymd\": \"20230413\",\n            \"nama\": \"Carter Evans\"\n        },\n        {\n            \"nim\": \"2345678901\",\n            \"ymd\": \"20221102\",\n            \"nama\": \"Carter Isabella\"\n        },\n        {\n            \"nim\": \"2346709185\",\n            \"ymd\": \"20230815\",\n            \"nama\": \"Carter Reed\"\n        },\n        {\n            \"nim\": \"2356047819\",\n            \"ymd\": \"20220510\",\n            \"nama\": \"Charlotte Morris\"\n        },\n        {\n            \"nim\": \"2374801965\",\n            \"ymd\": \"20231027\",\n            \"nama\": \"Charlotte Thompson\"\n        },\n        {\n            \"nim\": \"2379845016\",\n            \"ymd\": \"20220308\",\n            \"nama\": \"Chloe Bell\"\n        },\n        {\n            \"nim\": \"2385671094\",\n            \"ymd\": \"20230720\",\n            \"nama\": \"Chloe Brooks\"\n        },\n        {\n            \"nim\": \"2398165740\",\n            \"ymd\": \"20221129\",\n            \"nama\": \"Chloe Evans\"\n        },\n        {\n            \"nim\": \"2401563987\",\n            \"ymd\": \"20230416\",\n            \"nama\": \"Chloe Foster\"\n        },\n        {\n            \"nim\": \"2463987150\",\n            \"ymd\": \"20220904\",\n            \"nama\": \"Chloe Hayes\"\n        },\n        {\n            \"nim\": \"2493861507\",\n            \"ymd\": \"20231208\",\n            \"nama\": \"Chloe Murphy\"\n        },\n        {\n            \"nim\": \"2507149863\",\n            \"ymd\": \"20220627\",\n            \"nama\": \"Chloe Powell\"\n        },\n        {\n            \"nim\": \"2510934786\",\n            \"ymd\": \"20230210\",\n            \"nama\": \"Chloe Turner\"\n        },\n        {\n            \"nim\": \"2546178093\",\n            \"ymd\": \"20220723\",\n            \"nama\": \"Chloe Ward\"\n        },\n        {\n            \"nim\": \"2563718904\",\n            \"ymd\": \"20231103\",\n            \"nama\": \"Cole Lucas\"\n        },\n        {\n            \"nim\": \"2569438710\",\n            \"ymd\": \"20220420\",\n            \"nama\": \"Cole Mia\"\n        },\n        {\n            \"nim\": \"2604138795\",\n            \"ymd\": \"20230901\",\n            \"nama\": \"Collins Emily\"\n        },\n        {\n            \"nim\": \"2659781403\",\n            \"ymd\": \"20221213\",\n            \"nama\": \"Collins Mia\"\n        },\n        {\n            \"nim\": \"2674309185\",\n            \"ymd\": \"20230630\",\n            \"nama\": \"Cook Alexander\"\n        },\n        {\n            \"nim\": \"2730486159\",\n            \"ymd\": \"20220218\",\n            \"nama\": \"Cooper Aiden\"\n        },\n        {\n            \"nim\": \"2761985043\",\n            \"ymd\": \"20230513\",\n            \"nama\": \"Cooper Scarlett\"\n        },\n        {\n            \"nim\": \"2840651937\",\n            \"ymd\": \"20221030\",\n            \"nama\": \"Daniel Simmons\"\n        },\n        {\n            \"nim\": \"2904736185\",\n            \"ymd\": \"20230312\",\n            \"nama\": \"Davis Abigail\"\n        },\n        {\n            \"nim\": \"2938647015\",\n            \"ymd\": \"20220726\",\n            \"nama\": \"Davis Emma\"\n        },\n        {\n            \"nim\": \"2940538176\",\n            \"ymd\": \"20231214\",\n            \"nama\": \"Davis Harper\"\n        },\n        {\n            \"nim\": \"2941867530\",\n            \"ymd\": \"20220603\",\n            \"nama\": \"Davis Mia\"\n        },\n        {\n            \"nim\": \"2958046173\",\n            \"ymd\": \"20230115\",\n            \"nama\": \"Davis Noah\"\n        },\n        {\n            \"nim\": \"2978046513\",\n            \"ymd\": \"20220806\",\n            \"nama\": \"Davis Olivia\"\n        },\n        {\n            \"nim\": \"2981756043\",\n            \"ymd\": \"20231125\",\n            \"nama\": \"Davis Sophia\"\n        },\n        {\n            \"nim\": \"3018654729\",\n            \"ymd\": \"20220410\",\n            \"nama\": \"Elijah Fisher\"\n        },\n        {\n            \"nim\": \"3058726149\",\n            \"ymd\": \"20230921\",\n            \"nama\": \"Elijah Hill\"\n        },\n        {\n            \"nim\": \"3084765921\",\n            \"ymd\": \"20221203\",\n            \"nama\": \"Emily Collins\"\n        },\n        {\n            \"nim\": \"3089176542\",\n            \"ymd\": \"20230614\",\n            \"nama\": \"Emma Adams\"\n        },\n        {\n            \"nim\": \"3185649072\",\n            \"ymd\": \"20220228\",\n            \"nama\": \"Emma Baker\"\n        },\n        {\n            \"nim\": \"3198456027\",\n            \"ymd\": \"20230505\",\n            \"nama\": \"Emma Brooks\"\n        },\n        {\n            \"nim\": \"3209461857\",\n            \"ymd\": \"20221017\",\n            \"nama\": \"Emma Davis\"\n        },\n        {\n            \"nim\": \"3245678901\",\n            \"ymd\": \"20230401\",\n            \"nama\": \"Emma Foster\"\n        },\n        {\n            \"nim\": \"3246981075\",\n            \"ymd\": \"20220922\",\n            \"nama\": \"Emma Griffin\"\n        },\n        {\n            \"nim\": \"3247085961\",\n            \"ymd\": \"20231202\",\n            \"nama\": \"Emma Hayes\"\n        },\n        {\n            \"nim\": \"3421560987\",\n            \"ymd\": \"20220617\",\n            \"nama\": \"Emma Hill\"\n        },\n        {\n            \"nim\": \"3451876920\",\n            \"ymd\": \"20230130\",\n            \"nama\": \"Emma Mitchell\"\n        },\n        {\n            \"nim\": \"3456078129\",\n            \"ymd\": \"20220809\",\n            \"nama\": \"Emma Nelson\"\n        },\n        {\n            \"nim\": \"3456789012\",\n            \"ymd\": \"20231128\",\n            \"nama\": \"Emma Thompson\"\n        },\n        {\n            \"nim\": \"3456921807\",\n            \"ymd\": \"20220502\",\n            \"nama\": \"Emma Turner\"\n        },\n        {\n            \"nim\": \"3458612970\",\n            \"ymd\": \"20231011\",\n            \"nama\": \"Ethan Bryant\"\n        },\n        {\n            \"nim\": \"3472896150\",\n            \"ymd\": \"20220304\",\n            \"nama\": \"Ethan Foster\"\n        },\n        {\n            \"nim\": \"3489601275\",\n            \"ymd\": \"20230716\",\n            \"nama\": \"Ethan Hayes\"\n        },\n        {\n            \"nim\": \"3498756012\",\n            \"ymd\": \"20221127\",\n            \"nama\": \"Ethan Mitchell\"\n        },\n        {\n            \"nim\": \"3510782496\",\n            \"ymd\": \"20230410\",\n            \"nama\": \"Ethan Murphy\"\n        },\n        {\n            \"nim\": \"3510928746\",\n            \"ymd\": \"20220925\",\n            \"nama\": \"Ethan Price\"\n        },\n        {\n            \"nim\": \"3548692170\",\n            \"ymd\": \"20231205\",\n            \"nama\": \"Ethan Russell\"\n        },\n        {\n            \"nim\": \"3567812094\",\n            \"ymd\": \"20220620\",\n            \"nama\": \"Ethan Turner\"\n        },\n        {\n            \"nim\": \"3591820476\",\n            \"ymd\": \"20230203\",\n            \"nama\": \"Evans Carter\"\n        },\n        {\n            \"nim\": \"3620198745\",\n            \"ymd\": \"20220713\",\n            \"nama\": \"Evans Chloe\"\n        },\n        {\n            \"nim\": \"3640875129\",\n            \"ymd\": \"20231024\",\n            \"nama\": \"Evans Liam\"\n        },\n        {\n            \"nim\": \"3648715029\",\n            \"ymd\": \"20220507\",\n            \"nama\": \"Evans Mia\"\n        },\n        {\n            \"nim\": \"3650129847\",\n            \"ymd\": \"20230110\",\n            \"nama\": \"Evans Penelope\"\n        },\n        {\n            \"nim\": \"3675812049\",\n            \"ymd\": \"20220822\",\n            \"nama\": \"Evans Sophia\"\n        },\n        {\n            \"nim\": \"3702649185\",\n            \"ymd\": \"20231130\",\n            \"nama\": \"Evelyn Price\"\n        },\n        {\n            \"nim\": \"3762109548\",\n            \"ymd\": \"20220415\",\n            \"nama\": \"Fisher Elijah\"\n        },\n        {\n            \"nim\": \"3817462059\",\n            \"ymd\": \"20230928\",\n            \"nama\": \"Fisher Jackson\"\n        },\n        {\n            \"nim\": \"3819476052\",\n            \"ymd\": \"20221210\",\n            \"nama\": \"Fisher Sophia\"\n        },\n        {\n            \"nim\": \"3824657019\",\n            \"ymd\": \"20230621\",\n            \"nama\": \"Fisher Zoe\"\n        },\n        {\n            \"nim\": \"3850976142\",\n            \"ymd\": \"20220214\",\n            \"nama\": \"Foster Aiden\"\n        },\n        {\n            \"nim\": \"3851297640\",\n            \"ymd\": \"20230509\",\n            \"nama\": \"Foster Ava\"\n        },\n        {\n            \"nim\": \"3852401967\",\n            \"ymd\": \"20221022\",\n            \"nama\": \"Foster Chloe\"\n        },\n        {\n            \"nim\": \"3867520149\",\n            \"ymd\": \"20230305\",\n            \"nama\": \"Foster Emma\"\n        },\n        {\n            \"nim\": \"3947802165\",\n            \"ymd\": \"20220718\",\n            \"nama\": \"Foster Ethan\"\n        },\n        {\n            \"nim\": \"3962478015\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Foster Grace\"\n        },\n        {\n            \"nim\": \"4021567893\",\n            \"ymd\": \"20220624\",\n            \"nama\": \"Foster Harper\"\n        },\n        {\n            \"nim\": \"4037692185\",\n            \"ymd\": \"20230207\",\n            \"nama\": \"Foster Isabella\"\n        },\n        {\n            \"nim\": \"4038765129\",\n            \"ymd\": \"20220901\",\n            \"nama\": \"Foster Jackson\"\n        },\n        {\n            \"nim\": \"4107892536\",\n            \"ymd\": \"20230413\",\n            \"nama\": \"Foster Liam\"\n        },\n        {\n            \"nim\": \"4130982576\",\n            \"ymd\": \"20221102\",\n            \"nama\": \"Foster Lily\"\n        },\n        {\n            \"nim\": \"4132578906\",\n            \"ymd\": \"20230815\",\n            \"nama\": \"Foster Mia\"\n        },\n        {\n            \"nim\": \"4132698075\",\n            \"ymd\": \"20220510\",\n            \"nama\": \"Foster Noah\"\n        },\n        {\n            \"nim\": \"4158923076\",\n            \"ymd\": \"20231027\",\n            \"nama\": \"Foster Oliver\"\n        },\n        {\n            \"nim\": \"4180572396\",\n            \"ymd\": \"20220308\",\n            \"nama\": \"Fox Noah\"\n        },\n        {\n            \"nim\": \"4208651937\",\n            \"ymd\": \"20230720\",\n            \"nama\": \"Gabriel Simmons\"\n        },\n        {\n            \"nim\": \"4290381657\",\n            \"ymd\": \"20221129\",\n            \"nama\": \"Grace Foster\"\n        },\n        {\n            \"nim\": \"4298735106\",\n            \"ymd\": \"20230416\",\n            \"nama\": \"Grace Hayes\"\n        },\n        {\n            \"nim\": \"4302981675\",\n            \"ymd\": \"20220904\",\n            \"nama\": \"Grace Morris\"\n        },\n        {\n            \"nim\": \"4385126790\",\n            \"ymd\": \"20231208\",\n            \"nama\": \"Grace Myers\"\n        },\n        {\n            \"nim\": \"4508923671\",\n            \"ymd\": \"20231209\",\n            \"nama\": \"Grace Richardson\"\n        },\n        {\n            \"nim\": \"4518923076\",\n            \"ymd\": \"20231210\",\n            \"nama\": \"Grace Scott\"\n        },\n        {\n            \"nim\": \"4518927036\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Grace Simmons\"\n        },\n        {\n            \"nim\": \"4520968371\",\n            \"ymd\": \"20231212\",\n            \"nama\": \"Grace Thompson\"\n        },\n        {\n            \"nim\": \"4523768109\",\n            \"ymd\": \"20231213\",\n            \"nama\": \"Grace Turner\"\n        },\n        {\n            \"nim\": \"4562109873\",\n            \"ymd\": \"20231214\",\n            \"nama\": \"Gray Samuel\"\n        },\n        {\n            \"nim\": \"4567890123\",\n            \"ymd\": \"20231215\",\n            \"nama\": \"Griffin Emma\"\n        },\n        {\n            \"nim\": \"4569078123\",\n            \"ymd\": \"20231216\",\n            \"nama\": \"Griffin Owen\"\n        },\n        {\n            \"nim\": \"4601897532\",\n            \"ymd\": \"20231217\",\n            \"nama\": \"Harper Adams\"\n        },\n        {\n            \"nim\": \"4607328159\",\n            \"ymd\": \"20231218\",\n            \"nama\": \"Harper Bell\"\n        },\n        {\n            \"nim\": \"4609321785\",\n            \"ymd\": \"20231219\",\n            \"nama\": \"Harper Campbell\"\n        },\n        {\n            \"nim\": \"4621587390\",\n            \"ymd\": \"20231220\",\n            \"nama\": \"Harper Davis\"\n        },\n        {\n            \"nim\": \"4650283197\",\n            \"ymd\": \"20231221\",\n            \"nama\": \"Harper Foster\"\n        },\n        {\n            \"nim\": \"4671089253\",\n            \"ymd\": \"20231222\",\n            \"nama\": \"Harper Hayes\"\n        },\n        {\n            \"nim\": \"4680917532\",\n            \"ymd\": \"20231223\",\n            \"nama\": \"Harper Hill\"\n        },\n        {\n            \"nim\": \"4689302517\",\n            \"ymd\": \"20231224\",\n            \"nama\": \"Harper Morris\"\n        },\n        {\n            \"nim\": \"4693210857\",\n            \"ymd\": \"20231225\",\n            \"nama\": \"Harper Parker\"\n        },\n        {\n            \"nim\": \"4701869325\",\n            \"ymd\": \"20231226\",\n            \"nama\": \"Harper Powell\"\n        },\n        {\n            \"nim\": \"4761209853\",\n            \"ymd\": \"20231227\",\n            \"nama\": \"Harper Scott\"\n        },\n        {\n            \"nim\": \"4820165793\",\n            \"ymd\": \"20231228\",\n            \"nama\": \"Harper Taylor\"\n        },\n        {\n            \"nim\": \"4827309165\",\n            \"ymd\": \"20231229\",\n            \"nama\": \"Harper Turner\"\n        },\n        {\n            \"nim\": \"4856130927\",\n            \"ymd\": \"20231230\",\n            \"nama\": \"Harper Ward\"\n        },\n        {\n            \"nim\": \"4905128763\",\n            \"ymd\": \"20230115\",\n            \"nama\": \"Harrison Mia\"\n        },\n        {\n            \"nim\": \"4908237615\",\n            \"ymd\": \"20220803\",\n            \"nama\": \"Hayes Aiden\"\n        },\n        {\n            \"nim\": \"4910283765\",\n            \"ymd\": \"20231122\",\n            \"nama\": \"Hayes Ava\"\n        },\n        {\n            \"nim\": \"4913562708\",\n            \"ymd\": \"20220407\",\n            \"nama\": \"Hayes Chloe\"\n        },\n        {\n            \"nim\": \"4921368750\",\n            \"ymd\": \"20230918\",\n            \"nama\": \"Hayes Emma\"\n        },\n        {\n            \"nim\": \"4923178650\",\n            \"ymd\": \"20221230\",\n            \"nama\": \"Hayes Ethan\"\n        },\n        {\n            \"nim\": \"4925183670\",\n            \"ymd\": \"20230611\",\n            \"nama\": \"Hayes Grace\"\n        },\n        {\n            \"nim\": \"4927180563\",\n            \"ymd\": \"20220225\",\n            \"nama\": \"Hayes Harper\"\n        },\n        {\n            \"nim\": \"4935678102\",\n            \"ymd\": \"20230502\",\n            \"nama\": \"Hayes Jackson\"\n        },\n        {\n            \"nim\": \"4956873120\",\n            \"ymd\": \"20221014\",\n            \"nama\": \"Hayes Liam\"\n        },\n        {\n            \"nim\": \"4962831075\",\n            \"ymd\": \"20230327\",\n            \"nama\": \"Hayes Lily\"\n        },\n        {\n            \"nim\": \"5012376849\",\n            \"ymd\": \"20220709\",\n            \"nama\": \"Hayes Mia\"\n        },\n        {\n            \"nim\": \"5012893467\",\n            \"ymd\": \"20230213\",\n            \"nama\": \"Hayes Noah\"\n        },\n        {\n            \"nim\": \"5019283476\",\n            \"ymd\": \"20220526\",\n            \"nama\": \"Hayes Oliver\"\n        },\n        {\n            \"nim\": \"5023146789\",\n            \"ymd\": \"20231007\",\n            \"nama\": \"Hayes Olivia\"\n        },\n        {\n            \"nim\": \"5026179348\",\n            \"ymd\": \"20220119\",\n            \"nama\": \"Hayes Sophia\"\n        },\n        {\n            \"nim\": \"5031897462\",\n            \"ymd\": \"20230801\",\n            \"nama\": \"Henderson Leo\"\n        },\n        {\n            \"nim\": \"5032987461\",\n            \"ymd\": \"20221124\",\n            \"nama\": \"Henry Ward\"\n        },\n        {\n            \"nim\": \"5036487912\",\n            \"ymd\": \"20230405\",\n            \"nama\": \"Hill Elijah\"\n        },\n        {\n            \"nim\": \"5067213984\",\n            \"ymd\": \"20220917\",\n            \"nama\": \"Hill Emma\"\n        },\n        {\n            \"nim\": \"5082913467\",\n            \"ymd\": \"20231229\",\n            \"nama\": \"Hill Harper\"\n        },\n        {\n            \"nim\": \"5123786409\",\n            \"ymd\": \"20220610\",\n            \"nama\": \"Hill Isabella\"\n        },\n        {\n            \"nim\": \"5139078462\",\n            \"ymd\": \"20230123\",\n            \"nama\": \"Holmes Olivia\"\n        },\n        {\n            \"nim\": \"5140623978\",\n            \"ymd\": \"20220806\",\n            \"nama\": \"Isabella Carter\"\n        },\n        {\n            \"nim\": \"5170963842\",\n            \"ymd\": \"20231125\",\n            \"nama\": \"Isabella Foster\"\n        },\n        {\n            \"nim\": \"5182093467\",\n            \"ymd\": \"20220410\",\n            \"nama\": \"Isabella Hill\"\n        },\n        {\n            \"nim\": \"5182409673\",\n            \"ymd\": \"20230921\",\n            \"nama\": \"Isabella Wright\"\n        },\n        {\n            \"nim\": \"5189276304\",\n            \"ymd\": \"20221203\",\n            \"nama\": \"Jackson Adams\"\n        },\n        {\n            \"nim\": \"5196782403\",\n            \"ymd\": \"20230614\",\n            \"nama\": \"Jackson Bell\"\n        },\n        {\n            \"nim\": \"5279631804\",\n            \"ymd\": \"20220228\",\n            \"nama\": \"Jackson Brooks\"\n        },\n        {\n            \"nim\": \"5281094736\",\n            \"ymd\": \"20230505\",\n            \"nama\": \"Jackson Bryant\"\n        },\n        {\n            \"nim\": \"5298760143\",\n            \"ymd\": \"20221017\",\n            \"nama\": \"Jackson Fisher\"\n        },\n        {\n            \"nim\": \"5301974682\",\n            \"ymd\": \"20230401\",\n            \"nama\": \"Jackson Foster\"\n        },\n        {\n            \"nim\": \"5362198740\",\n            \"ymd\": \"20220922\",\n            \"nama\": \"Jackson Hayes\"\n        },\n        {\n            \"nim\": \"5401987236\",\n            \"ymd\": \"20231202\",\n            \"nama\": \"Jackson Kelly\"\n        },\n        {\n            \"nim\": \"5420987136\",\n            \"ymd\": \"20220617\",\n            \"nama\": \"Jackson Murphy\"\n        },\n        {\n            \"nim\": \"5429703816\",\n            \"ymd\": \"20230130\",\n            \"nama\": \"Jackson Nelson\"\n        },\n        {\n            \"nim\": \"5432768901\",\n            \"ymd\": \"20220809\",\n            \"nama\": \"Jackson Scott\"\n        },\n        {\n            \"nim\": \"5462380791\",\n            \"ymd\": \"20231128\",\n            \"nama\": \"Jackson Stewart\"\n        },\n        {\n            \"nim\": \"5607893412\",\n            \"ymd\": \"20220502\",\n            \"nama\": \"Jackson Turner\"\n        },\n        {\n            \"nim\": \"5620193847\",\n            \"ymd\": \"20231011\",\n            \"nama\": \"Jackson Ward\"\n        },\n        {\n            \"nim\": \"5649301872\",\n            \"ymd\": \"20220304\",\n            \"nama\": \"Jackson Wright\"\n        },\n        {\n            \"nim\": \"5670318249\",\n            \"ymd\": \"20230716\",\n            \"nama\": \"James Lily\"\n        },\n        {\n            \"nim\": \"5672184903\",\n            \"ymd\": \"20221127\",\n            \"nama\": \"James Wright\"\n        },\n        {\n            \"nim\": \"5678123049\",\n            \"ymd\": \"20230410\",\n            \"nama\": \"Kelly Jackson\"\n        },\n        {\n            \"nim\": \"5678901234\",\n            \"ymd\": \"20220925\",\n            \"nama\": \"Leo Henderson\"\n        },\n        {\n            \"nim\": \"5712034986\",\n            \"ymd\": \"20231205\",\n            \"nama\": \"Liam Adams\"\n        },\n        {\n            \"nim\": \"5716943028\",\n            \"ymd\": \"20220620\",\n            \"nama\": \"Liam Bell\"\n        },\n        {\n            \"nim\": \"5720368419\",\n            \"ymd\": \"20230203\",\n            \"nama\": \"Liam Bryant\"\n        },\n        {\n            \"nim\": \"5732048961\",\n            \"ymd\": \"20220713\",\n            \"nama\": \"Liam Campbell\"\n        },\n        {\n            \"nim\": \"5742906138\",\n            \"ymd\": \"20231024\",\n            \"nama\": \"Liam Evans\"\n        },\n        {\n            \"nim\": \"5746192038\",\n            \"ymd\": \"20220507\",\n            \"nama\": \"Liam Foster\"\n        },\n        {\n            \"nim\": \"5812034769\",\n            \"ymd\": \"20230110\",\n            \"nama\": \"Liam Hayes\"\n        },\n        {\n            \"nim\": \"5820743169\",\n            \"ymd\": \"20220822\",\n            \"nama\": \"Liam Peterson\"\n        },\n        {\n            \"nim\": \"5823610947\",\n            \"ymd\": \"20231130\",\n            \"nama\": \"Liam Reed\"\n        },\n        {\n            \"nim\": \"5840319267\",\n            \"ymd\": \"20220415\",\n            \"nama\": \"Liam Turner\"\n        },\n        {\n            \"nim\": \"5863701924\",\n            \"ymd\": \"20230928\",\n            \"nama\": \"Liam Ward\"\n        },\n        {\n            \"nim\": \"5876312049\",\n            \"ymd\": \"20221210\",\n            \"nama\": \"Lily Adams\"\n        },\n        {\n            \"nim\": \"5876320149\",\n            \"ymd\": \"20230621\",\n            \"nama\": \"Lily Bell\"\n        },\n        {\n            \"nim\": \"5912345678\",\n            \"ymd\": \"20220214\",\n            \"nama\": \"Lily Brooks\"\n        },\n        {\n            \"nim\": \"5941086273\",\n            \"ymd\": \"20230509\",\n            \"nama\": \"Lily Foster\"\n        },\n        {\n            \"nim\": \"5983421607\",\n            \"ymd\": \"20221022\",\n            \"nama\": \"Lily Hayes\"\n        },\n        {\n            \"nim\": \"6071832945\",\n            \"ymd\": \"20230305\",\n            \"nama\": \"Lily James\"\n        },\n        {\n            \"nim\": \"6083419257\",\n            \"ymd\": \"20220718\",\n            \"nama\": \"Lily Thompson\"\n        },\n        {\n            \"nim\": \"6083741259\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Lily Turner\"\n        },\n        {\n            \"nim\": \"6089473125\",\n            \"ymd\": \"20220624\",\n            \"nama\": \"Lily Ward\"\n        },\n        {\n            \"nim\": \"6102934758\",\n            \"ymd\": \"20230207\",\n            \"nama\": \"Lucas Barnes\"\n        },\n        {\n            \"nim\": \"6104729835\",\n            \"ymd\": \"20220901\",\n            \"nama\": \"Lucas Cole\"\n        },\n        {\n            \"nim\": \"6138740592\",\n            \"ymd\": \"20230413\",\n            \"nama\": \"Lucas Parker\"\n        },\n        {\n            \"nim\": \"6172940358\",\n            \"ymd\": \"20221102\",\n            \"nama\": \"Lucas Taylor\"\n        },\n        {\n            \"nim\": \"6174903825\",\n            \"ymd\": \"20230815\",\n            \"nama\": \"Lucas Thompson\"\n        },\n        {\n            \"nim\": \"6198432075\",\n            \"ymd\": \"20220510\",\n            \"nama\": \"Lucas Turner\"\n        },\n        {\n            \"nim\": \"6203154789\",\n            \"ymd\": \"20231027\",\n            \"nama\": \"Lucas Ward\"\n        },\n        {\n            \"nim\": \"6219845037\",\n            \"ymd\": \"20220308\",\n            \"nama\": \"Madison Turner\"\n        },\n        {\n            \"nim\": \"6279810453\",\n            \"ymd\": \"20230720\",\n            \"nama\": \"Martinez Mason\"\n        },\n        {\n            \"nim\": \"6287395140\",\n            \"ymd\": \"20221129\",\n            \"nama\": \"Martinez Sophia\"\n        },\n        {\n            \"nim\": \"6289475031\",\n            \"ymd\": \"20230416\",\n            \"nama\": \"Mason Martinez\"\n        },\n        {\n            \"nim\": \"6309851472\",\n            \"ymd\": \"20220904\",\n            \"nama\": \"Mia Adams\"\n        },\n        {\n            \"nim\": \"6318947025\",\n            \"ymd\": \"20231208\",\n            \"nama\": \"Mia Campbell\"\n        },\n        {\n            \"nim\": \"6352789014\",\n            \"ymd\": \"20220627\",\n            \"nama\": \"Mia Cole\"\n        },\n        {\n            \"nim\": \"6370982145\",\n            \"ymd\": \"20230210\",\n            \"nama\": \"Mia Collins\"\n        },\n        {\n            \"nim\": \"6371502984\",\n            \"ymd\": \"20220723\",\n            \"nama\": \"Mia Davis\"\n        },\n        {\n            \"nim\": \"6415823907\",\n            \"ymd\": \"20231103\",\n            \"nama\": \"Mia Evans\"\n        },\n        {\n            \"nim\": \"6429085713\",\n            \"ymd\": \"20220420\",\n            \"nama\": \"Mia Foster\"\n        },\n        {\n            \"nim\": \"6435901827\",\n            \"ymd\": \"20230901\",\n            \"nama\": \"Mia Harrison\"\n        },\n        {\n            \"nim\": \"6487302195\",\n            \"ymd\": \"20221213\",\n            \"nama\": \"Mia Hayes\"\n        },\n        {\n            \"nim\": \"6508123479\",\n            \"ymd\": \"20230630\",\n            \"nama\": \"Mia Mitchell\"\n        },\n        {\n            \"nim\": \"6571290834\",\n            \"ymd\": \"20220218\",\n            \"nama\": \"Mia Murphy\"\n        },\n        {\n            \"nim\": \"6572081493\",\n            \"ymd\": \"20230513\",\n            \"nama\": \"Mia Parker\"\n        },\n        {\n            \"nim\": \"6572093841\",\n            \"ymd\": \"20221030\",\n            \"nama\": \"Mia Scott\"\n        },\n        {\n            \"nim\": \"6572301948\",\n            \"ymd\": \"20230312\",\n            \"nama\": \"Mia Turner\"\n        },\n        {\n            \"nim\": \"6573201948\",\n            \"ymd\": \"20220726\",\n            \"nama\": \"Mia Wallace\"\n        },\n        {\n            \"nim\": \"6720458193\",\n            \"ymd\": \"20231214\",\n            \"nama\": \"Mia Ward\"\n        },\n        {\n            \"nim\": \"6748103925\",\n            \"ymd\": \"20220603\",\n            \"nama\": \"Mitchell Emma\"\n        },\n        {\n            \"nim\": \"6785430129\",\n            \"ymd\": \"20230115\",\n            \"nama\": \"Mitchell Ethan\"\n        },\n        {\n            \"nim\": \"6789012345\",\n            \"ymd\": \"20220806\",\n            \"nama\": \"Mitchell Mia\"\n        },\n        {\n            \"nim\": \"6789054321\",\n            \"ymd\": \"20231125\",\n            \"nama\": \"Mitchell Oliver\"\n        },\n        {\n            \"nim\": \"6789450312\",\n            \"ymd\": \"20220410\",\n            \"nama\": \"Morris Addison\"\n        },\n        {\n            \"nim\": \"6792045183\",\n            \"ymd\": \"20230921\",\n            \"nama\": \"Morris Charlotte\"\n        },\n        {\n            \"nim\": \"6812405937\",\n            \"ymd\": \"20221203\",\n            \"nama\": \"Morris Grace\"\n        },\n        {\n            \"nim\": \"6815324907\",\n            \"ymd\": \"20230614\",\n            \"nama\": \"Morris Harper\"\n        },\n        {\n            \"nim\": \"6852301974\",\n            \"ymd\": \"20220228\",\n            \"nama\": \"Murphy Aiden\"\n        },\n        {\n            \"nim\": \"6871542093\",\n            \"ymd\": \"20230505\",\n            \"nama\": \"Murphy Amelia\"\n        },\n        {\n            \"nim\": \"6875309412\",\n            \"ymd\": \"20221017\",\n            \"nama\": \"Murphy Chloe\"\n        },\n        {\n            \"nim\": \"6890132457\",\n            \"ymd\": \"20230401\",\n            \"nama\": \"Murphy Ethan\"\n        },\n        {\n            \"nim\": \"6921083745\",\n            \"ymd\": \"20220922\",\n            \"nama\": \"Murphy Jackson\"\n        },\n        {\n            \"nim\": \"6925840317\",\n            \"ymd\": \"20231202\",\n            \"nama\": \"Murphy Mia\"\n        },\n        {\n            \"nim\": \"6931742058\",\n            \"ymd\": \"20220617\",\n            \"nama\": \"Murphy Oliver\"\n        },\n        {\n            \"nim\": \"6945280137\",\n            \"ymd\": \"20230130\",\n            \"nama\": \"Murphy Sophia\"\n        },\n        {\n            \"nim\": \"6947580123\",\n            \"ymd\": \"20220809\",\n            \"nama\": \"Myers Grace\"\n        },\n        {\n            \"nim\": \"6947812503\",\n            \"ymd\": \"20231128\",\n            \"nama\": \"Nelson Emma\"\n        },\n        {\n            \"nim\": \"6952378140\",\n            \"ymd\": \"20220502\",\n            \"nama\": \"Nelson Jackson\"\n        },\n        {\n            \"nim\": \"6958231470\",\n            \"ymd\": \"20231011\",\n            \"nama\": \"Nelson Noah\"\n        },\n        {\n            \"nim\": \"6970345182\",\n            \"ymd\": \"20220304\",\n            \"nama\": \"Nelson Oliver\"\n        },\n        {\n            \"nim\": \"6971283450\",\n            \"ymd\": \"20230716\",\n            \"nama\": \"Noah Adams\"\n        },\n        {\n            \"nim\": \"6973825140\",\n            \"ymd\": \"20221127\",\n            \"nama\": \"Noah Bell\"\n        },\n        {\n            \"nim\": \"7042619835\",\n            \"ymd\": \"20230410\",\n            \"nama\": \"Noah Brooks\"\n        },\n        {\n            \"nim\": \"7052398164\",\n            \"ymd\": \"20220925\",\n            \"nama\": \"Noah Davis\"\n        },\n        {\n            \"nim\": \"7065432189\",\n            \"ymd\": \"20231205\",\n            \"nama\": \"Noah Foster\"\n        },\n        {\n            \"nim\": \"7165039284\",\n            \"ymd\": \"20220620\",\n            \"nama\": \"Noah Fox\"\n        },\n        {\n            \"nim\": \"7230814596\",\n            \"ymd\": \"20230203\",\n            \"nama\": \"Noah Hayes\"\n        },\n        {\n            \"nim\": \"7256043189\",\n            \"ymd\": \"20220713\",\n            \"nama\": \"Noah Nelson\"\n        },\n        {\n            \"nim\": \"7264309815\",\n            \"ymd\": \"20231024\",\n            \"nama\": \"Noah Parker\"\n        },\n        {\n            \"nim\": \"7265091348\",\n            \"ymd\": \"20220507\",\n            \"nama\": \"Noah Richardson\"\n        },\n        {\n            \"nim\": \"7280645139\",\n            \"ymd\": \"20230110\",\n            \"nama\": \"Noah Taylor\"\n        },\n        {\n            \"nim\": \"7315086492\",\n            \"ymd\": \"20220822\",\n            \"nama\": \"Noah Turner\"\n        },\n        {\n            \"nim\": \"7341602958\",\n            \"ymd\": \"20231130\",\n            \"nama\": \"Oliver Bell\"\n        },\n        {\n            \"nim\": \"7392815046\",\n            \"ymd\": \"20220415\",\n            \"nama\": \"Oliver Brooks\"\n        },\n        {\n            \"nim\": \"7420683519\",\n            \"ymd\": \"20230928\",\n            \"nama\": \"Oliver Foster\"\n        },\n        {\n            \"nim\": \"7431502869\",\n            \"ymd\": \"20221210\",\n            \"nama\": \"Oliver Hayes\"\n        },\n        {\n            \"nim\": \"7453201986\",\n            \"ymd\": \"20230621\",\n            \"nama\": \"Oliver Mitchell\"\n        },\n        {\n            \"nim\": \"7492108365\",\n            \"ymd\": \"20220214\",\n            \"nama\": \"Oliver Murphy\"\n        },\n        {\n            \"nim\": \"7514869230\",\n            \"ymd\": \"20230509\",\n            \"nama\": \"Oliver Nelson\"\n        },\n        {\n            \"nim\": \"7543012986\",\n            \"ymd\": \"20221022\",\n            \"nama\": \"Oliver Powell\"\n        },\n        {\n            \"nim\": \"7581029346\",\n            \"ymd\": \"20230305\",\n            \"nama\": \"Oliver Scott\"\n        },\n        {\n            \"nim\": \"7609452318\",\n            \"ymd\": \"20220718\",\n            \"nama\": \"Oliver Thompson\"\n        },\n        {\n            \"nim\": \"7632189045\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Oliver Turner\"\n        },\n        {\n            \"nim\": \"7635091248\",\n            \"ymd\": \"20220624\",\n            \"nama\": \"Oliver Ward\"\n        },\n        {\n            \"nim\": \"7649301285\",\n            \"ymd\": \"20230207\",\n            \"nama\": \"Olivia Adams\"\n        },\n        {\n            \"nim\": \"7650921834\",\n            \"ymd\": \"20220901\",\n            \"nama\": \"Olivia Bell\"\n        },\n        {\n            \"nim\": \"7652098413\",\n            \"ymd\": \"20230413\",\n            \"nama\": \"Olivia Davis\"\n        },\n        {\n            \"nim\": \"7654109328\",\n            \"ymd\": \"20221102\",\n            \"nama\": \"Olivia Hayes\"\n        },\n        {\n            \"nim\": \"7654209318\",\n            \"ymd\": \"20230815\",\n            \"nama\": \"Olivia Holmes\"\n        },\n        {\n            \"nim\": \"7684530219\",\n            \"ymd\": \"20220510\",\n            \"nama\": \"Olivia Turner\"\n        },\n        {\n            \"nim\": \"7690314285\",\n            \"ymd\": \"20231027\",\n            \"nama\": \"Owen Griffin\"\n        },\n        {\n            \"nim\": \"7694012358\",\n            \"ymd\": \"20220308\",\n            \"nama\": \"Parker Benjamin\"\n        },\n        {\n            \"nim\": \"7816042395\",\n            \"ymd\": \"20230720\",\n            \"nama\": \"Parker Harper\"\n        },\n        {\n            \"nim\": \"7834159620\",\n            \"ymd\": \"20221129\",\n            \"nama\": \"Parker Lucas\"\n        },\n        {\n            \"nim\": \"7834506219\",\n            \"ymd\": \"20230416\",\n            \"nama\": \"Parker Mia\"\n        },\n        {\n            \"nim\": \"7890123456\",\n            \"ymd\": \"20220904\",\n            \"nama\": \"Parker Noah\"\n        },\n        {\n            \"nim\": \"7893062514\",\n            \"ymd\": \"20231208\",\n            \"nama\": \"Penelope Evans\"\n        },\n        {\n            \"nim\": \"7895246013\",\n            \"ymd\": \"20231209\",\n            \"nama\": \"Perry William\"\n        },\n        {\n            \"nim\": \"7940862513\",\n            \"ymd\": \"20231210\",\n            \"nama\": \"Peterson Liam\"\n        },\n        {\n            \"nim\": \"7968435012\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Powell Aiden\"\n        },\n        {\n            \"nim\": \"7980651243\",\n            \"ymd\": \"20231212\",\n            \"nama\": \"Powell Chloe\"\n        },\n        {\n            \"nim\": \"8013429657\",\n            \"ymd\": \"20231213\",\n            \"nama\": \"Powell Harper\"\n        },\n        {\n            \"nim\": \"8045619372\",\n            \"ymd\": \"20231214\",\n            \"nama\": \"Powell Oliver\"\n        },\n        {\n            \"nim\": \"8053461927\",\n            \"ymd\": \"20231215\",\n            \"nama\": \"Powell Sophia\"\n        },\n        {\n            \"nim\": \"8063152497\",\n            \"ymd\": \"20231216\",\n            \"nama\": \"Price Ethan\"\n        },\n        {\n            \"nim\": \"8076159324\",\n            \"ymd\": \"20231217\",\n            \"nama\": \"Price Evelyn\"\n        },\n        {\n            \"nim\": \"8102735469\",\n            \"ymd\": \"20231218\",\n            \"nama\": \"Reed Carter\"\n        },\n        {\n            \"nim\": \"8105962374\",\n            \"ymd\": \"20231219\",\n            \"nama\": \"Reed Liam\"\n        },\n        {\n            \"nim\": \"8123456970\",\n            \"ymd\": \"20231220\",\n            \"nama\": \"Reed Sophia\"\n        },\n        {\n            \"nim\": \"8139562470\",\n            \"ymd\": \"20231221\",\n            \"nama\": \"Reynolds Sophia\"\n        },\n        {\n            \"nim\": \"8146570329\",\n            \"ymd\": \"20231222\",\n            \"nama\": \"Richardson Grace\"\n        },\n        {\n            \"nim\": \"8149036572\",\n            \"ymd\": \"20231223\",\n            \"nama\": \"Richardson Noah\"\n        },\n        {\n            \"nim\": \"8192435067\",\n            \"ymd\": \"20231224\",\n            \"nama\": \"Richardson Scarlett\"\n        },\n        {\n            \"nim\": \"8193045672\",\n            \"ymd\": \"20231225\",\n            \"nama\": \"Rodriguez Zoey\"\n        },\n        {\n            \"nim\": \"8231094765\",\n            \"ymd\": \"20231226\",\n            \"nama\": \"Russell Ethan\"\n        },\n        {\n            \"nim\": \"8235079614\",\n            \"ymd\": \"20231227\",\n            \"nama\": \"Samuel Gray\"\n        },\n        {\n            \"nim\": \"8302957461\",\n            \"ymd\": \"20231228\",\n            \"nama\": \"Sanders Aria\"\n        },\n        {\n            \"nim\": \"8304965172\",\n            \"ymd\": \"20231229\",\n            \"nama\": \"Scarlett Cooper\"\n        },\n        {\n            \"nim\": \"8309657142\",\n            \"ymd\": \"20231230\",\n            \"nama\": \"Scarlett Richardson\"\n        },\n        {\n            \"nim\": \"8320194765\",\n            \"ymd\": \"20230115\",\n            \"nama\": \"Scott Grace\"\n        },\n        {\n            \"nim\": \"8327496150\",\n            \"ymd\": \"20220803\",\n            \"nama\": \"Scott Harper\"\n        },\n        {\n            \"nim\": \"8346501927\",\n            \"ymd\": \"20231122\",\n            \"nama\": \"Scott Jackson\"\n        },\n        {\n            \"nim\": \"8361924705\",\n            \"ymd\": \"20220407\",\n            \"nama\": \"Scott Mia\"\n        },\n        {\n            \"nim\": \"8372164905\",\n            \"ymd\": \"20230918\",\n            \"nama\": \"Scott Oliver\"\n        },\n        {\n            \"nim\": \"8407135629\",\n            \"ymd\": \"20221230\",\n            \"nama\": \"Sebastian Turner\"\n        },\n        {\n            \"nim\": \"8453012976\",\n            \"ymd\": \"20230611\",\n            \"nama\": \"Simmons Daniel\"\n        },\n        {\n            \"nim\": \"8512679043\",\n            \"ymd\": \"20220225\",\n            \"nama\": \"Simmons Gabriel\"\n        },\n        {\n            \"nim\": \"8530126479\",\n            \"ymd\": \"20230502\",\n            \"nama\": \"Simmons Grace\"\n        },\n        {\n            \"nim\": \"8574912038\",\n            \"ymd\": \"20221014\",\n            \"nama\": \"Sophia Adams\"\n        },\n        {\n            \"nim\": \"8619437052\",\n            \"ymd\": \"20230327\",\n            \"nama\": \"Sophia Barnes\"\n        },\n        {\n            \"nim\": \"8650123479\",\n            \"ymd\": \"20220709\",\n            \"nama\": \"Sophia Bell\"\n        },\n        {\n            \"nim\": \"8657132049\",\n            \"ymd\": \"20230213\",\n            \"nama\": \"Sophia Brooks\"\n        },\n        {\n            \"nim\": \"8714305962\",\n            \"ymd\": \"20220526\",\n            \"nama\": \"Sophia Campbell\"\n        },\n        {\n            \"nim\": \"8723054619\",\n            \"ymd\": \"20231007\",\n            \"nama\": \"Sophia Davis\"\n        },\n        {\n            \"nim\": \"8745136902\",\n            \"ymd\": \"20220119\",\n            \"nama\": \"Sophia Evans\"\n        },\n        {\n            \"nim\": \"8746023159\",\n            \"ymd\": \"20230801\",\n            \"nama\": \"Sophia Fisher\"\n        },\n        {\n            \"nim\": \"8746905231\",\n            \"ymd\": \"20221124\",\n            \"nama\": \"Sophia Hayes\"\n        },\n        {\n            \"nim\": \"8761043925\",\n            \"ymd\": \"20230405\",\n            \"nama\": \"Sophia Martinez\"\n        },\n        {\n            \"nim\": \"8761205349\",\n            \"ymd\": \"20220917\",\n            \"nama\": \"Sophia Murphy\"\n        },\n        {\n            \"nim\": \"8762093415\",\n            \"ymd\": \"20231229\",\n            \"nama\": \"Sophia Powell\"\n        },\n        {\n            \"nim\": \"8762301954\",\n            \"ymd\": \"20220610\",\n            \"nama\": \"Sophia Reed\"\n        },\n        {\n            \"nim\": \"8764590123\",\n            \"ymd\": \"20230123\",\n            \"nama\": \"Sophia Reynolds\"\n        },\n        {\n            \"nim\": \"8901234567\",\n            \"ymd\": \"20220806\",\n            \"nama\": \"Sophia Turner\"\n        },\n        {\n            \"nim\": \"8901346725\",\n            \"ymd\": \"20231125\",\n            \"nama\": \"Sophia Ward\"\n        },\n        {\n            \"nim\": \"8901456327\",\n            \"ymd\": \"20220410\",\n            \"nama\": \"Stella Wallace\"\n        },\n        {\n            \"nim\": \"8902734516\",\n            \"ymd\": \"20230921\",\n            \"nama\": \"Stewart Jackson\"\n        },\n        {\n            \"nim\": \"8906137452\",\n            \"ymd\": \"20221203\",\n            \"nama\": \"Taylor Aiden\"\n        },\n        {\n            \"nim\": \"8950213647\",\n            \"ymd\": \"20230614\",\n            \"nama\": \"Taylor Harper\"\n        },\n        {\n            \"nim\": \"9012345678\",\n            \"ymd\": \"20220228\",\n            \"nama\": \"Taylor Lucas\"\n        },\n        {\n            \"nim\": \"9018372456\",\n            \"ymd\": \"20230505\",\n            \"nama\": \"Taylor Noah\"\n        },\n        {\n            \"nim\": \"9048763521\",\n            \"ymd\": \"20221017\",\n            \"nama\": \"Thompson Charlotte\"\n        },\n        {\n            \"nim\": \"9054382167\",\n            \"ymd\": \"20230401\",\n            \"nama\": \"Thompson Emma\"\n        },\n        {\n            \"nim\": \"9061782453\",\n            \"ymd\": \"20220922\",\n            \"nama\": \"Thompson Grace\"\n        },\n        {\n            \"nim\": \"9063478125\",\n            \"ymd\": \"20231202\",\n            \"nama\": \"Thompson Lily\"\n        },\n        {\n            \"nim\": \"9078134526\",\n            \"ymd\": \"20220617\",\n            \"nama\": \"Thompson Lucas\"\n        },\n        {\n            \"nim\": \"9078654321\",\n            \"ymd\": \"20230130\",\n            \"nama\": \"Thompson Oliver\"\n        },\n        {\n            \"nim\": \"9142058763\",\n            \"ymd\": \"20220809\",\n            \"nama\": \"Turner Aiden\"\n        },\n        {\n            \"nim\": \"9142078365\",\n            \"ymd\": \"20231128\",\n            \"nama\": \"Turner Ava\"\n        },\n        {\n            \"nim\": \"9182730654\",\n            \"ymd\": \"20220502\",\n            \"nama\": \"Turner Chloe\"\n        },\n        {\n            \"nim\": \"9183654027\",\n            \"ymd\": \"20231011\",\n            \"nama\": \"Turner Emma\"\n        },\n        {\n            \"nim\": \"9208453617\",\n            \"ymd\": \"20220304\",\n            \"nama\": \"Turner Ethan\"\n        },\n        {\n            \"nim\": \"9260174583\",\n            \"ymd\": \"20230716\",\n            \"nama\": \"Turner Grace\"\n        },\n        {\n            \"nim\": \"9270651483\",\n            \"ymd\": \"20221127\",\n            \"nama\": \"Turner Harper\"\n        },\n        {\n            \"nim\": \"9271805346\",\n            \"ymd\": \"20230410\",\n            \"nama\": \"Turner Jackson\"\n        },\n        {\n            \"nim\": \"9304857162\",\n            \"ymd\": \"20220925\",\n            \"nama\": \"Turner Liam\"\n        },\n        {\n            \"nim\": \"9326751408\",\n            \"ymd\": \"20231205\",\n            \"nama\": \"Turner Lily\"\n        },\n        {\n            \"nim\": \"9342016578\",\n            \"ymd\": \"20220620\",\n            \"nama\": \"Turner Lucas\"\n        },\n        {\n            \"nim\": \"9342107865\",\n            \"ymd\": \"20230203\",\n            \"nama\": \"Turner Madison\"\n        },\n        {\n            \"nim\": \"9352078461\",\n            \"ymd\": \"20220713\",\n            \"nama\": \"Turner Mia\"\n        },\n        {\n            \"nim\": \"9378561204\",\n            \"ymd\": \"20231024\",\n            \"nama\": \"Turner Noah\"\n        },\n        {\n            \"nim\": \"9384756201\",\n            \"ymd\": \"20220507\",\n            \"nama\": \"Turner Oliver\"\n        },\n        {\n            \"nim\": \"9456302718\",\n            \"ymd\": \"20230110\",\n            \"nama\": \"Turner Olivia\"\n        },\n        {\n            \"nim\": \"9462170583\",\n            \"ymd\": \"20220822\",\n            \"nama\": \"Turner Sebastian\"\n        },\n        {\n            \"nim\": \"9462813507\",\n            \"ymd\": \"20231130\",\n            \"nama\": \"Turner Sophia\"\n        },\n        {\n            \"nim\": \"9481073652\",\n            \"ymd\": \"20220415\",\n            \"nama\": \"Wallace Mia\"\n        },\n        {\n            \"nim\": \"9483561207\",\n            \"ymd\": \"20230928\",\n            \"nama\": \"Wallace Stella\"\n        },\n        {\n            \"nim\": \"9501764328\",\n            \"ymd\": \"20221210\",\n            \"nama\": \"Ward Chloe\"\n        },\n        {\n            \"nim\": \"9518273640\",\n            \"ymd\": \"20230621\",\n            \"nama\": \"Ward Harper\"\n        },\n        {\n            \"nim\": \"9546872013\",\n            \"ymd\": \"20220214\",\n            \"nama\": \"Ward Henry\"\n        },\n        {\n            \"nim\": \"9561738042\",\n            \"ymd\": \"20230509\",\n            \"nama\": \"Ward Jackson\"\n        },\n        {\n            \"nim\": \"9652318740\",\n            \"ymd\": \"20221022\",\n            \"nama\": \"Ward Liam\"\n        },\n        {\n            \"nim\": \"9671058234\",\n            \"ymd\": \"20230305\",\n            \"nama\": \"Ward Lily\"\n        },\n        {\n            \"nim\": \"9678325140\",\n            \"ymd\": \"20220718\",\n            \"nama\": \"Ward Lucas\"\n        },\n        {\n            \"nim\": \"9736018245\",\n            \"ymd\": \"20231211\",\n            \"nama\": \"Ward Mia\"\n        },\n        {\n            \"nim\": \"9765012342\",\n            \"ymd\": \"20220624\",\n            \"nama\": \"Ward Oliver\"\n        },\n        {\n            \"nim\": \"9765012348\",\n            \"ymd\": \"20230207\",\n            \"nama\": \"Ward Sophia\"\n        },\n        {\n            \"nim\": \"9765032481\",\n            \"ymd\": \"20220901\",\n            \"nama\": \"William Perry\"\n        },\n        {\n            \"nim\": \"9768054321\",\n            \"ymd\": \"20230413\",\n            \"nama\": \"Williams Abigail\"\n        },\n        {\n            \"nim\": \"9812345076\",\n            \"ymd\": \"20221102\",\n            \"nama\": \"Wright Ava\"\n        },\n        {\n            \"nim\": \"9817352406\",\n            \"ymd\": \"20230815\",\n            \"nama\": \"Wright Isabella\"\n        },\n        {\n            \"nim\": \"9817352409\",\n            \"ymd\": \"20220510\",\n            \"nama\": \"Wright Jackson\"\n        },\n        {\n            \"nim\": \"9823456017\",\n            \"ymd\": \"20231027\",\n            \"nama\": \"Wright James\"\n        },\n        {\n            \"nim\": \"9870452316\",\n            \"ymd\": \"20220308\",\n            \"nama\": \"Wyatt Barnes\"\n        },\n        {\n            \"nim\": \"9876053121\",\n            \"ymd\": \"20230720\",\n            \"nama\": \"Zoe Fisher\"\n        },\n        {\n            \"nim\": \"9876053124\",\n            \"ymd\": \"20221129\",\n            \"nama\": \"Zoey Rodriguez\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "search",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/customers/search?q=Ava",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"customers",
+								"search"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Ava"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/customers/search?q=Ava",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"customers",
+										"search"
+									],
+									"query": [
+										{
+											"key": "q",
+											"value": "Ava"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 12 Mar 2025 23:36:37 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"nim\": \"0197485623\",\n        \"ymd\": 20231122,\n        \"nama\": \"Adams Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 26,\n        \"nim\": \"1298745603\",\n        \"ymd\": 20230921,\n        \"nama\": \"Ava Adams\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 27,\n        \"nim\": \"1309452786\",\n        \"ymd\": 20221203,\n        \"nama\": \"Ava Bell\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 28,\n        \"nim\": \"1345678902\",\n        \"ymd\": 20230614,\n        \"nama\": \"Ava Brooks\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 29,\n        \"nim\": \"1347695820\",\n        \"ymd\": 20220228,\n        \"nama\": \"Ava Campbell\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 30,\n        \"nim\": \"1349752680\",\n        \"ymd\": 20230505,\n        \"nama\": \"Ava Foster\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 31,\n        \"nim\": \"1385076429\",\n        \"ymd\": 20221017,\n        \"nama\": \"Ava Hayes\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 32,\n        \"nim\": \"1492876053\",\n        \"ymd\": 20230401,\n        \"nama\": \"Ava Turner\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 33,\n        \"nim\": \"1579864203\",\n        \"ymd\": 20220922,\n        \"nama\": \"Ava Wright\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 40,\n        \"nim\": \"1835096742\",\n        \"ymd\": 20231011,\n        \"nama\": \"Bell Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 52,\n        \"nim\": \"2039485716\",\n        \"ymd\": 20230110,\n        \"nama\": \"Brooks Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 63,\n        \"nim\": \"2157349608\",\n        \"ymd\": 20220718,\n        \"nama\": \"Campbell Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 132,\n        \"nim\": \"3851297640\",\n        \"ymd\": 20230509,\n        \"nama\": \"Foster Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 175,\n        \"nim\": \"4910283765\",\n        \"ymd\": 20231122,\n        \"nama\": \"Hayes Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 384,\n        \"nim\": \"9142078365\",\n        \"ymd\": 20231128,\n        \"nama\": \"Turner Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    },\n    {\n        \"id\": 415,\n        \"nim\": \"9812345076\",\n        \"ymd\": 20221102,\n        \"nama\": \"Wright Ava\",\n        \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n        \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "searchByNim",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/customers/search/nim/0197485623",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"customers",
+								"search",
+								"nim",
+								"0197485623"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/customers/search/nim/0197485623",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"customers",
+										"search",
+										"nim",
+										"0197485623"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 13:57:34 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"nim\": \"0197485623\",\n    \"ymd\": 20231122,\n    \"nama\": \"Adams Ava\",\n    \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n    \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "searchByNama",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/customers/search/nama/Adams Ava",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"customers",
+								"search",
+								"nama",
+								"Adams Ava"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/customers/search/nama/Adams Ava",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"customers",
+										"search",
+										"nama",
+										"Adams Ava"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:00:24 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"nim\": \"0197485623\",\n    \"ymd\": 20231122,\n    \"nama\": \"Adams Ava\",\n    \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n    \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "searchByYmd",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/customers/search/ymd/20231122",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"customers",
+								"search",
+								"ymd",
+								"20231122"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/customers/search/ymd/20231122",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"customers",
+										"search",
+										"ymd",
+										"20231122"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:01:11 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"nim\": \"0197485623\",\n    \"ymd\": 20231122,\n    \"nama\": \"Adams Ava\",\n    \"created_at\": \"2025-03-12T22:42:15.000000Z\",\n    \"updated_at\": \"2025-03-12T23:30:39.000000Z\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "admin@example.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "admin@example.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "password",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8002/api/auth/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 12 Mar 2025 23:14:41 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"id\": 1,\n        \"name\": \"Admin\",\n        \"email\": \"admin@example.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2025-03-12T23:11:43.000000Z\",\n        \"updated_at\": \"2025-03-12T23:11:43.000000Z\"\n    },\n    \"token\": \"1|N0IxYzw0PHQkCI4oaERwxSNLr4Vx9LSHKAhNvxIL9faf5a02\"\n}"
+						}
+					]
+				},
+				{
+					"name": "currentUser",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/auth/me",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"me"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8002/api/auth/me",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"auth",
+										"me"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:27:41 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"name\": \"Admin\",\n    \"email\": \"admin@example.com\",\n    \"email_verified_at\": null,\n    \"created_at\": \"2025-03-12T23:11:43.000000Z\",\n    \"updated_at\": \"2025-03-12T23:11:43.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/auth/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8002/api/auth/logout",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"auth",
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:30:05 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Logged out\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8002/api/users",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:03:26 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Admin\",\n        \"email\": \"admin@example.com\",\n        \"email_verified_at\": null,\n        \"created_at\": \"2025-03-12T23:11:43.000000Z\",\n        \"updated_at\": \"2025-03-12T23:11:43.000000Z\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "byId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/users/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/users/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"users",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:17:17 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 1,\n    \"name\": \"Admin\",\n    \"email\": \"admin@example.com\",\n    \"email_verified_at\": null,\n    \"created_at\": \"2025-03-12T23:11:43.000000Z\",\n    \"updated_at\": \"2025-03-12T23:11:43.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"User123\",\r\n    \"email\":\"user1@example.com\",\r\n    \"password\":\"user123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/users/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\":\"User123\",\r\n    \"email\":\"user1@example.com\",\r\n    \"password\":\"user123\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8002/api/users/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"users",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:25:44 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 2,\n    \"name\": \"User123\",\n    \"email\": \"user1@example.com\",\n    \"email_verified_at\": null,\n    \"created_at\": \"2025-03-13T14:20:18.000000Z\",\n    \"updated_at\": \"2025-03-13T14:25:44.000000Z\"\n}"
+						}
+					]
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/users/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"users",
+								"2"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8002/api/users/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"users",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:26:56 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User deleted\"\n}"
+						}
+					]
+				},
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "User1",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "user1@example.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "user123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "User1",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "user1@example.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "user123",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8002/api/users",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8002",
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "localhost:8002"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.3.7"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Mar 2025 14:28:52 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"user\": {\n        \"name\": \"User1\",\n        \"email\": \"user1@example.com\",\n        \"updated_at\": \"2025-03-13T14:28:52.000000Z\",\n        \"created_at\": \"2025-03-13T14:28:52.000000Z\",\n        \"id\": 3\n    },\n    \"token\": \"2|9PP6vlwZ8abq8MTVcHf2Abk6vIf7TuXPK2q5NFVv03769562\"\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "1|N0IxYzw0PHQkCI4oaERwxSNLr4Vx9LSHKAhNvxIL9faf5a02",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
