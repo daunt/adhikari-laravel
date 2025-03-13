@@ -25,13 +25,19 @@ class UserController extends Controller
         $validated['password'] = Hash::make($validated['password']);
 
         $user = User::create($validated);
+        $token = $user->createToken('auth_token')->plainTextToken;
 
-        return response()->json($user, 201);
+        return response()->json([
+            'user' => $user,
+            'token' => $token,
+        ], 201);
     }
 
     public function show(User $user)
     {
-        return response()->json($user);
+        return $user != null
+            ? response()->json($user)
+            : response()->json(['message' => 'No user found'], 404);
     }
 
     public function update(Request $request, User $user)
@@ -41,14 +47,17 @@ class UserController extends Controller
             'email' => ['sometimes', 'email', Rule::unique('users', 'email')->ignore($user->id)],
             'password' => 'sometimes|string|min:6',
         ]);
-
         if (isset($validated['password'])) {
             $validated['password'] = Hash::make($validated['password']);
         }
 
         $user->update($validated);
+        $token = $user->createToken('auth_token')->plainTextToken;
 
-        return response()->json($user);
+        return response()->json([
+            'user' => $user,
+            'token' => $token,
+        ]);
     }
 
     public function destroy(User $user)
