@@ -62,38 +62,27 @@ class CustomerController extends Controller
             : response()->json($customers);
     }
 
-    public function searchByNim(Request $request)
+    public function searchByNim($q)
     {
-        $validated = $request->validate([
-            'nim'  => 'required|string|max:20',
-        ]);
-        $customers = Customer::query()->where('nim', '=', $validated['nim'])->first();
-        return $customers->isEmpty()
-            ? response()->json(['message' => 'No customers found'], 404)
-            : response()->json($customers);
+        $customer = Customer::query()->where('nim', '=', $q)->first();
+        return $customer
+            ? response()->json($customer)
+            : response()->json(['message' => 'No customers found'], 404);
     }
 
-    public function searchByNama(Request $request)
+    public function searchByNama($q)
     {
-        $validated = $request->validate([
-            'nama' => 'required|string|max:255',
-        ]);
-        $customers = Customer::query()->where('nama', '=', $validated['nama'])->first();
-        return $customers->isEmpty()
-            ? response()->json(['message' => 'No customers found'], 404)
-            : response()->json($customers);
+        $customer = Customer::query()->where('nama', '=', $q)->first();
+        return $customer
+            ? response()->json($customer)
+            : response()->json(['message' => 'No customers found'], 404);
     }
 
-
-    public function searchByYmd(Request $request)
+    public function searchByYmd($q)
     {
-        $validated = $request->validate([
-            'ymd' => 'required|date_format:Ymd',
-        ]);
-
-        $customers = Customer::query()->where('ymd', '=', $validated['ymd'])->first();
-        return $customers->isEmpty()
-            ? response()->json(['message' => 'No customers found'], 404)
-            : response()->json($customers);
+        $customer = Customer::query()->where('ymd', '=', $q)->first();
+        return $customer
+            ? response()->json($customer)
+            : response()->json(['message' => 'No customers found'], 404);
     }
 }
